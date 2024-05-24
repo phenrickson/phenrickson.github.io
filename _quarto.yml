@@ -16,8 +16,6 @@ website:
               text: "Board Games"
             - href: cfb.qmd
               text: "College Football"
-            - href: talks.qmd
-              text: "Talks"
       - href: workshops.qmd
         text: Workshops
       - href: talks.qmd
