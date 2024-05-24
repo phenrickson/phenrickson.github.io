@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Phil Henrickson"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - background.qmd
+      - projects.qmd
+      - talks.qmd
+
+format:
+  html:
+    theme: cerulean
+    css: styles.css
+    toc: true
+
+editor: source
+
