@@ -8,27 +8,25 @@ Disclaimer: Despite spending more years at Florida State (and being on campus fo
 
 ------------------------------------------------------------------------
 
-1.  [**Simulating College Football Seasons**](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html)
+### [Simulating College Football Seasons](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html)
 
 <center>![](images/team_predictions_2022.png){width="40%"} ![](images/playoff_probs_2019.png){width="50%"}</center>
 
 Which teams are most likely to win their conference? Make the playoff? Win the national championship?
 
-2022 Postseason
+#### 2022
 
-[**Bowl Predictions**](https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_matchups.html)
+[Bowl Predictions](https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_matchups.html)
 
-2022 Regular Season
-
-[**Team Predictions**](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html) // [**Game Predictions**](https://phenrickson.github.io/cfb/simulations/season/2022/matchups.html)
+[Team Predictions](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html) // [Game Predictions](https://phenrickson.github.io/cfb/simulations/season/2022/matchups.html)
 
 Team Profile Examples
 
-[**Florida State**](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Florida%20State.html) // [**Wisconsin**](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Wisconsin.html)
+[Florida State](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Florida%20State.html) // [Wisconsin](https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Wisconsin.html)
 
 I simulate the remainder of the college football season 1000 times after every week of the regular season. These simulations come from an (adjusted) Elo model that I developed using historical game and play by data - the current iteration of the model uses historical game outcomes, team offensive and defensive efficiency metrics, and recruiting composites in order to estimate a team’s relative rating compared to other teams.
 
-2021
+#### 2021
 
 [Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_14_2021.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_14_2021.html)
 
@@ -38,7 +36,7 @@ I simulate the remainder of the college football season 1000 times after every w
 
 [Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_0_2021.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_0_2021.html)
 
-2019
+#### 2019
 
 [Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_14_2019.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_14_2019.html)
 
@@ -48,9 +46,7 @@ I simulate the remainder of the college football season 1000 times after every w
 
 [Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html)
 
-------------------------------------------------------------------------
-
-2.  [**Expected Points and Offensive/Defensive Efficiency**](https://phenrickson.github.io/cfb/expected_points_01_model.html)
+###  [Expected Points and Efficiency](https://phenrickson.github.io/cfb/expected_points_01_model.html)
 
 <center>![](images/expected_points_by_play.png){width="55%"} ![](images/tamu_eff.png){width="40%"}</center>
 
@@ -61,6 +57,8 @@ To answer questions like these, I develop and explore an expected points model a
 I train a multinomial logistic regression on the next scoring event for each play (TD, FG, Opp. TD, Opp. FG, etc) as a function of the situation in the game (down, distance, yards to goal). I use the probabilities from this model to compute expected points at the play level, which I then aggregate to the team, game, and season level in order to measure each team's raw offensive/defensive efficiency.
 
 I then adjust each team's raw efficiency metrics based on the quality of their opponents via a ridge regression in order to obtain opponent adjusted offensive/defensive efficiency metrics for every team. I plot these at the season level to examine a how a team's offense/defense has changed since 2007.
+
+### Methodology
 
 [Expected Points Methodology](https://phenrickson.github.io/cfb/expected_points_01_model.html) 
 

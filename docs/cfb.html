@@ -147,7 +147,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#simulating-college-football-seasons" id="toc-simulating-college-football-seasons" class="nav-link active" data-scroll-target="#simulating-college-football-seasons">Simulating College Football Seasons</a></li>
+  <li><a href="#expected-points-and-efficiency" id="toc-expected-points-and-efficiency" class="nav-link" data-scroll-target="#expected-points-and-efficiency">Expected Points and Efficiency</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -174,34 +182,37 @@ ul.task-list li input[type="checkbox"] {
 <p>There are some CFB projects I’ve worked on using data from collegefootballdata.com.</p>
 <p>Disclaimer: Despite spending more years at Florida State (and being on campus for the 2013 championship season) while I worked on my PhD, my own college football loyalties lie with my undergraduate university, Texas A&amp;M.</p>
 <hr>
-<ol type="1">
-<li><a href="https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html"><strong>Simulating College Football Seasons</strong></a></li>
-</ol>
+<section id="simulating-college-football-seasons" class="level3">
+<h3 class="anchored" data-anchor-id="simulating-college-football-seasons"><a href="https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html">Simulating College Football Seasons</a></h3>
 <center>
 <img src="images/team_predictions_2022.png" class="img-fluid" style="width:40.0%"> <img src="images/playoff_probs_2019.png" class="img-fluid" style="width:50.0%">
 </center>
 <p>Which teams are most likely to win their conference? Make the playoff? Win the national championship?</p>
-<p>2022 Postseason</p>
-<p><a href="https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_matchups.html"><strong>Bowl Predictions</strong></a></p>
-<p>2022 Regular Season</p>
-<p><a href="https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html"><strong>Team Predictions</strong></a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2022/matchups.html"><strong>Game Predictions</strong></a></p>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section">2022</h4>
+<p><a href="https://phenrickson.github.io/cfb/simulations/postseason/2022/postseason_matchups.html">Bowl Predictions</a></p>
+<p><a href="https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html">Team Predictions</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2022/matchups.html">Game Predictions</a></p>
 <p>Team Profile Examples</p>
-<p><a href="https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Florida%20State.html"><strong>Florida State</strong></a> // <a href="https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Wisconsin.html"><strong>Wisconsin</strong></a></p>
+<p><a href="https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Florida%20State.html">Florida State</a> // <a href="https://phenrickson.github.io/cfb/team_profiles/preseason/2022/Wisconsin.html">Wisconsin</a></p>
 <p>I simulate the remainder of the college football season 1000 times after every week of the regular season. These simulations come from an (adjusted) Elo model that I developed using historical game and play by data - the current iteration of the model uses historical game outcomes, team offensive and defensive efficiency metrics, and recruiting composites in order to estimate a team’s relative rating compared to other teams.</p>
-<p>2021</p>
+</section>
+<section id="section-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-1">2021</h4>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_14_2021.html">Team Predictions as of Week 14</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2021/matchups_14_2021.html">Game Predictions as of Week 14</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_9_2021.html">Team Predictions as of Week 9</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2021/matchups_9_2021.html">Game Predictions as of Week 9</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_5_2021.html">Team Predictions as of Week 5</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2021/matchups_5_2021.html">Game Predictions as of Week 5</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_0_2021.html">Team Predictions as of Week 0</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2021/matchups_0_2021.html">Game Predictions as of Week 0</a></p>
-<p>2019</p>
+</section>
+<section id="section-2" class="level4">
+<h4 class="anchored" data-anchor-id="section-2">2019</h4>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_14_2019.html">Team Predictions as of Week 14</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_14_2019.html">Game Predictions as of Week 14</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_9_2019.html">Team Predictions as of Week 9</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_9_2019.html">Game Predictions as of Week 9</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_5_2019.html">Team Predictions as of Week 5</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_5_2019.html">Game Predictions as of Week 5</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html">Team Predictions as of Week 0</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html">Game Predictions as of Week 0</a></p>
-<hr>
-<ol start="2" type="1">
-<li><a href="https://phenrickson.github.io/cfb/expected_points_01_model.html"><strong>Expected Points and Offensive/Defensive Efficiency</strong></a></li>
-</ol>
+</section>
+</section>
+<section id="expected-points-and-efficiency" class="level3">
+<h3 class="anchored" data-anchor-id="expected-points-and-efficiency"><a href="https://phenrickson.github.io/cfb/expected_points_01_model.html">Expected Points and Efficiency</a></h3>
 <center>
 <img src="images/expected_points_by_play.png" class="img-fluid" style="width:55.0%"> <img src="images/tamu_eff.png" class="img-fluid" style="width:40.0%">
 </center>
@@ -209,11 +220,15 @@ ul.task-list li input[type="checkbox"] {
 <p>To answer questions like these, I develop and explore an expected points model at the play level for evaluating college football offenses and defenses. The goal of this analysis is to place a value on offensive/defensive plays in terms of their contribution’s to a team’s expected points.</p>
 <p>I train a multinomial logistic regression on the next scoring event for each play (TD, FG, Opp. TD, Opp. FG, etc) as a function of the situation in the game (down, distance, yards to goal). I use the probabilities from this model to compute expected points at the play level, which I then aggregate to the team, game, and season level in order to measure each team’s raw offensive/defensive efficiency.</p>
 <p>I then adjust each team’s raw efficiency metrics based on the quality of their opponents via a ridge regression in order to obtain opponent adjusted offensive/defensive efficiency metrics for every team. I plot these at the season level to examine a how a team’s offense/defense has changed since 2007.</p>
+</section>
+<section id="methodology" class="level3">
+<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
 <p><a href="https://phenrickson.github.io/cfb/expected_points_01_model.html">Expected Points Methodology</a></p>
 <p><a href="https://phenrickson.github.io/cfb/expected_points_02_examine.html">Examining Individual Plays via Expected Points</a></p>
 <p><a href="https://phenrickson.github.io/cfb/expected_points_03_adjusted.html">Opponent Adjusted Expected Points</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
