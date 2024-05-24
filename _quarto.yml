@@ -7,9 +7,34 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - background.qmd
-      - projects.qmd
-      - talks.qmd
+      - href: background.qmd
+        text: Background
+      - text: Projects
+        menu:
+            - href: boardgames.qmd
+              text: "Board Games"
+            - href: cfb.qmd
+              text: "College Football"
+            - href: talks.qmd
+              text: "Talks"
+      - href: workshops.qmd
+        text: Workshops
+      - href: talks.qmd
+        text: Talks
+        # menu: 
+        #   - href: boardgames.qmd
+        #     text: "Board Games"
+        #   - href: cfb.qmd
+        #     text: "College Football"
+        # text: Talks
+        #   - href: talks.qmd
+        #     text: "Talks"
+            
+    right: 
+      - icon: github
+        href: http://github.com/phenrickson/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/phenrickson/
 
 format:
   html:

@@ -1,0 +1,20 @@
+---
+title: "Workshops"
+---
+
+## What They Didn't Teach You About Data Science
+
+I made the jump from academic research to consuling and have learned many (painful) lessons along the way about working on data science projects.
+
+This workshop focuses on enabling ccollaborative open-source data science development. The goal is to create consistent, repeatable patterns for data science project development, iteration, and delivery.
+
+Learning a little bit about version control package/environment management, and pipelines goes a long way towards solving the headaches of modern data science projects.
+
+1. [Intro](https://phenrickson.github.io/getting-started/materials/00-intro.html) 
+1. [Git + GitHub](https://phenrickson.github.io/getting-started/materials/01-git.html)
+1. [renv](https://phenrickson.github.io/getting-started/materials/02-renv.html)
+1. [targets](https://phenrickson.github.io/getting-started/materials/03-targets.html)
+
+[Workshop Site](https://phenrickson.github.io/getting-started/)
+
+---

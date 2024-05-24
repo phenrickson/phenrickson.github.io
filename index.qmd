@@ -1,0 +1,25 @@
+---
+title: "About"
+---
+
+I work as a consulting data scientist in Madison, Wisconsin, helping clients and organizations apply techniques from data science in order to learn from data. Prior to consulting my background was in academic research, and I specialize in predictive modeling, statistical/machine learning, and causal inference.
+
+This website serves as a repository for some of my side projects. I love using my background in research to over analyze the world of boardgames, sports and everything else. lick on the links above to check out a few of my projects, as well as talks I've given at various data science/analytics conferences.
+
+------------------------------------------------------------------------
+
+![](images/averages_and_usersrated.png){width="45%"} ![](images/ridges.png){width="40%"}
+
+------------------------------------------------------------------------
+
+![](images/elo_path.png){width="48%"} ![](images/cfb_preds.png){width="40%"}
+
+------------------------------------------------------------------------
+
+## ![](images/separation.png){width="48%"} ![](images/ark_nova.png){width="40%"}
+
+![](images/now_what_models.png){width="48%"} ![](images/user_model_assessment.png){width="40%"}
+
+------------------------------------------------------------------------
+
+![](images/golden_age.png){width="48%"} ![](images/xgboost.png){width="40%"}

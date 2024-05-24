@@ -1,0 +1,13 @@
+---
+title: "Background"
+---
+
+## About Me
+
+My name is Phil Henrickson, and I currently work in Madison, Wisconsin as a consultant in data science and analytics. My passion is to occupy the intersection between data science and communication, where I focus on translating technical work into usable insights and questions for audiences of all backgrounds. My goal is to foster scientific thinking with data in everyone.
+
+Prior to consulting, I completed my PhD in political science at Florida State University 2018, where I taught courses on international relations, political violence, and civil war. My dissertation focused on using machine learning to predict battle deaths and the onset of international conflict, the first chapter of which was published ([in the Journal of Defense Modeling and Simulation in 2020](https://journals.sagepub.com/doi/abs/10.1177/1548512919826375)). My methodological specialties are in statistical/machine learning, applied predictive modeling, time series forecasting, and causal inference, and I am avid user of R, the [tidyverse](https://www.tidyverse.org), and [tidymodels](https://www.tidymodels.org). 
+
+In addition to my research background, I use my experience as a college lecturer to give dynamic and instructive presentations on data science and analytics, and I have been the featured speaker at analytics conferences and symposiums throughout the state of Wisconsin. 
+
+In my free time, I frequently work on side projects to explore new methods and techniques for my work in consulting. This website serves as a repository for some of my work, most of which is devoted to board games and sports.
