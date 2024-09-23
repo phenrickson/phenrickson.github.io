@@ -6,6 +6,22 @@ There are some CFB projects I've worked on using data from collegefootballdata.c
 
 Disclaimer: Despite spending more years at Florida State (and being on campus for the 2013 championship season) while I worked on my PhD, my own college football loyalties lie with my undergraduate university, Texas A&M.
 
+[Project Page](https://phenrickson.github.io/cfb_models/)
+
+------------------------------------------------------------------------
+
+### [Predicting College Football Games](https://phenrickson.github.io/cfb_models/predicting_games.html)
+
+<center>![](images/cfb_predictions.png){width="40%"} ![](images/cfb_predictions_table.png){width="50%"}</center>
+
+I use estimates of team efficiency on offense and defense and my game prediction model to simulate upcoming college football games. In addition to estimating the spread and probability of victory for the home team, I rate the expected quality/competitiveness of each game to find the most interesting matchups for the week.
+
+### [Ranking College Football Teams](https://phenrickson.github.io/cfb_models/season_report.html)
+
+<center>![](images/cfb_rankings.png){width="40%"} ![](images/cfb_efficiency.png){width="40%"}</center>
+
+Who are the best college football teams right now? How have they changed during a season? I use my model of play by data to estimate opponent adjusted team efficiency after each week of the college football season. I convert these estimates into a team power score, which measures a team's expected margin of victory against an average opponent. I monitor these power scores to track how teams are faring based on their on field performance.
+
 ------------------------------------------------------------------------
 
 ### [Simulating College Football Seasons](https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html)
@@ -45,23 +61,3 @@ I simulate the remainder of the college football season 1000 times after every w
 [Team Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_5_2019.html) // [Game Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_5_2019.html)
 
 [Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html)
-
-###  [Expected Points and Efficiency](https://phenrickson.github.io/cfb/expected_points_01_model.html)
-
-<center>![](images/expected_points_by_play.png){width="55%"} ![](images/tamu_eff.png){width="40%"}</center>
-
-How valuable is a 3 yard gain on 1st and 10 compared to a 3 yard gain on 3rd and 2? How good a is a team's offense or defense relative to other teams? How efficient is a team when passing the ball on third downs?
-
-To answer questions like these, I develop and explore an expected points model at the play level for evaluating college football offenses and defenses. The goal of this analysis is to place a value on offensive/defensive plays in terms of their contribution’s to a team’s expected points.
-
-I train a multinomial logistic regression on the next scoring event for each play (TD, FG, Opp. TD, Opp. FG, etc) as a function of the situation in the game (down, distance, yards to goal). I use the probabilities from this model to compute expected points at the play level, which I then aggregate to the team, game, and season level in order to measure each team's raw offensive/defensive efficiency.
-
-I then adjust each team's raw efficiency metrics based on the quality of their opponents via a ridge regression in order to obtain opponent adjusted offensive/defensive efficiency metrics for every team. I plot these at the season level to examine a how a team's offense/defense has changed since 2007.
-
-### Methodology
-
-[Expected Points Methodology](https://phenrickson.github.io/cfb/expected_points_01_model.html) 
-
-[Examining Individual Plays via Expected Points](https://phenrickson.github.io/cfb/expected_points_02_examine.html)
-
-[Opponent Adjusted Expected Points](https://phenrickson.github.io/cfb/expected_points_03_adjusted.html)

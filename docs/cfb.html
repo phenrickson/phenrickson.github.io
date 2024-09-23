@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Phil Henrickson - College Football</title>
+<title>College Football – Phil Henrickson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Background</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Projects</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -147,9 +147,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#simulating-college-football-seasons" id="toc-simulating-college-football-seasons" class="nav-link active" data-scroll-target="#simulating-college-football-seasons">Simulating College Football Seasons</a></li>
-  <li><a href="#expected-points-and-efficiency" id="toc-expected-points-and-efficiency" class="nav-link" data-scroll-target="#expected-points-and-efficiency">Expected Points and Efficiency</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  <li><a href="#predicting-college-football-games" id="toc-predicting-college-football-games" class="nav-link active" data-scroll-target="#predicting-college-football-games">Predicting College Football Games</a></li>
+  <li><a href="#ranking-college-football-teams" id="toc-ranking-college-football-teams" class="nav-link" data-scroll-target="#ranking-college-football-teams">Ranking College Football Teams</a></li>
+  <li><a href="#simulating-college-football-seasons" id="toc-simulating-college-football-seasons" class="nav-link" data-scroll-target="#simulating-college-football-seasons">Simulating College Football Seasons</a></li>
   </ul>
 </nav>
     </div>
@@ -177,7 +177,23 @@ ul.task-list li input[type="checkbox"] {
 
 <p>There are some CFB projects I’ve worked on using data from collegefootballdata.com.</p>
 <p>Disclaimer: Despite spending more years at Florida State (and being on campus for the 2013 championship season) while I worked on my PhD, my own college football loyalties lie with my undergraduate university, Texas A&amp;M.</p>
+<p><a href="https://phenrickson.github.io/cfb_models/">Project Page</a></p>
 <hr>
+<section id="predicting-college-football-games" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-college-football-games"><a href="https://phenrickson.github.io/cfb_models/predicting_games.html">Predicting College Football Games</a></h3>
+<center>
+<img src="images/cfb_predictions.png" class="img-fluid" style="width:40.0%"> <img src="images/cfb_predictions_table.png" class="img-fluid" style="width:50.0%">
+</center>
+<p>I use estimates of team efficiency on offense and defense and my game prediction model to simulate upcoming college football games. In addition to estimating the spread and probability of victory for the home team, I rate the expected quality/competitiveness of each game to find the most interesting matchups for the week.</p>
+</section>
+<section id="ranking-college-football-teams" class="level3">
+<h3 class="anchored" data-anchor-id="ranking-college-football-teams"><a href="https://phenrickson.github.io/cfb_models/season_report.html">Ranking College Football Teams</a></h3>
+<center>
+<img src="images/cfb_rankings.png" class="img-fluid" style="width:40.0%"> <img src="images/cfb_efficiency.png" class="img-fluid" style="width:40.0%">
+</center>
+<p>Who are the best college football teams right now? How have they changed during a season? I use my model of play by data to estimate opponent adjusted team efficiency after each week of the college football season. I convert these estimates into a team power score, which measures a team’s expected margin of victory against an average opponent. I monitor these power scores to track how teams are faring based on their on field performance.</p>
+<hr>
+</section>
 <section id="simulating-college-football-seasons" class="level3">
 <h3 class="anchored" data-anchor-id="simulating-college-football-seasons"><a href="https://phenrickson.github.io/cfb/simulations/season/2022/team_predictions.html">Simulating College Football Seasons</a></h3>
 <center>
@@ -205,25 +221,9 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_9_2019.html">Team Predictions as of Week 9</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_9_2019.html">Game Predictions as of Week 9</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_5_2019.html">Team Predictions as of Week 5</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_5_2019.html">Game Predictions as of Week 5</a></p>
 <p><a href="https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html">Team Predictions as of Week 0</a> // <a href="https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html">Game Predictions as of Week 0</a></p>
-</section>
-</section>
-<section id="expected-points-and-efficiency" class="level3">
-<h3 class="anchored" data-anchor-id="expected-points-and-efficiency"><a href="https://phenrickson.github.io/cfb/expected_points_01_model.html">Expected Points and Efficiency</a></h3>
-<center>
-<img src="images/expected_points_by_play.png" class="img-fluid" style="width:55.0%"> <img src="images/tamu_eff.png" class="img-fluid" style="width:40.0%">
-</center>
-<p>How valuable is a 3 yard gain on 1st and 10 compared to a 3 yard gain on 3rd and 2? How good a is a team’s offense or defense relative to other teams? How efficient is a team when passing the ball on third downs?</p>
-<p>To answer questions like these, I develop and explore an expected points model at the play level for evaluating college football offenses and defenses. The goal of this analysis is to place a value on offensive/defensive plays in terms of their contribution’s to a team’s expected points.</p>
-<p>I train a multinomial logistic regression on the next scoring event for each play (TD, FG, Opp. TD, Opp. FG, etc) as a function of the situation in the game (down, distance, yards to goal). I use the probabilities from this model to compute expected points at the play level, which I then aggregate to the team, game, and season level in order to measure each team’s raw offensive/defensive efficiency.</p>
-<p>I then adjust each team’s raw efficiency metrics based on the quality of their opponents via a ridge regression in order to obtain opponent adjusted offensive/defensive efficiency metrics for every team. I plot these at the season level to examine a how a team’s offense/defense has changed since 2007.</p>
-</section>
-<section id="methodology" class="level3">
-<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
-<p><a href="https://phenrickson.github.io/cfb/expected_points_01_model.html">Expected Points Methodology</a></p>
-<p><a href="https://phenrickson.github.io/cfb/expected_points_02_examine.html">Examining Individual Plays via Expected Points</a></p>
-<p><a href="https://phenrickson.github.io/cfb/expected_points_03_adjusted.html">Opponent Adjusted Expected Points</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -262,18 +262,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -305,7 +294,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -313,7 +324,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
