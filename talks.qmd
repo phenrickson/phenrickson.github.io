@@ -4,6 +4,18 @@ title: "Talks"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
+## [The Data You Don't Have:  <br> Where is the Value in Data Science?](https://phenrickson.github.io/guidepost_2024/presentation.html#/title-slide)
+
+![](images/data_you_dont_have_title.png){width=40%} ![](images/data_you_dont_have_2.png){width=45%}
+
+</center>
+
+Most organizations want to advance their capabilities in data science/machine learning/artificial intelligence. At the same, most organizations struggle to find value from them.
+
+In this talk, I tell two stories of "old-fashioned" science with data and what we can learn from them.
+
+</center>
+
 ## [Science & Bullshit: <br> What We Can't Not Know in the Age of AI](https://github.com/phenrickson/talks/raw/main/science_and_bullshit.pdf)
 
 <center>
