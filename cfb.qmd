@@ -10,6 +10,15 @@ Disclaimer: Despite spending more years at Florida State (and being on campus fo
 
 ------------------------------------------------------------------------
 
+### [Simulating the College Football Playoff](https://phenrickson.github.io/cfb_models/simulating_postseason.html)
+
+<center>![](images/playoff_sims_2024.png){width="40%"} ![](images/championship_sims_2024.png){width="50%"}</center>
+
+The teams have been chosen; who is most likely to win the 2024 College Football Playoff? I simulate the entirety of the playoffs thousands of times using my college football team efficiency model. Who is most likely to win the national championship? What are the most likely matchups?
+
+
+------------------------------------------------------------------------
+
 ### [Predicting College Football Games](https://phenrickson.github.io/cfb_models/predicting_games.html)
 
 <center>![](images/cfb_predictions.png){width="40%"} ![](images/cfb_predictions_table.png){width="50%"}</center>
@@ -42,22 +51,22 @@ Team Profile Examples
 
 I simulate the remainder of the college football season 1000 times after every week of the regular season. These simulations come from an (adjusted) Elo model that I developed using historical game and play by data - the current iteration of the model uses historical game outcomes, team offensive and defensive efficiency metrics, and recruiting composites in order to estimate a team’s relative rating compared to other teams.
 
-#### 2021
+<!-- #### 2021 -->
 
-[Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_14_2021.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_14_2021.html)
+<!-- [Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_14_2021.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_14_2021.html) -->
 
-[Team Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_9_2021.html) // [Game Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_9_2021.html)
+<!-- [Team Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_9_2021.html) // [Game Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_9_2021.html) -->
 
-[Team Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_5_2021.html) // [Game Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_5_2021.html)
+<!-- [Team Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_5_2021.html) // [Game Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_5_2021.html) -->
 
-[Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_0_2021.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_0_2021.html)
+<!-- [Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/team_predictions_week_0_2021.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2021/matchups_0_2021.html) -->
 
-#### 2019
+<!-- #### 2019 -->
 
-[Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_14_2019.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_14_2019.html)
+<!-- [Team Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_14_2019.html) // [Game Predictions as of Week 14](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_14_2019.html) -->
 
-[Team Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_9_2019.html) // [Game Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_9_2019.html)
+<!-- [Team Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_9_2019.html) // [Game Predictions as of Week 9](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_9_2019.html) -->
 
-[Team Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_5_2019.html) // [Game Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_5_2019.html)
+<!-- [Team Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_5_2019.html) // [Game Predictions as of Week 5](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_5_2019.html) -->
 
-[Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html)
+<!-- [Team Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/team_predictions_week_0_2019.html) // [Game Predictions as of Week 0](https://phenrickson.github.io/cfb/simulations/season/2019/matchups_0_2019.html) -->
