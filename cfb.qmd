@@ -12,7 +12,7 @@ Disclaimer: Despite spending more years at Florida State (and being on campus fo
 
 ### [Simulating the College Football Playoff](https://phenrickson.github.io/cfb_models/simulating_postseason.html)
 
-<center>![](images/playoff_sims_2024.png){width="40%"} ![](images/championship_sims_2024.png){width="50%"}</center>
+<center>![](images/playoff_sims_2024.png){width="50%"} ![](images/championship_sims_2024.png){width="40%"}</center>
 
 The teams have been chosen; who is most likely to win the 2024 College Football Playoff? I simulate the entirety of the playoffs thousands of times using my college football team efficiency model. Who is most likely to win the national championship? What are the most likely matchups?
 
