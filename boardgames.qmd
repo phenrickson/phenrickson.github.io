@@ -30,6 +30,12 @@ I train models at the individual user level to predict whether someone will be l
 
 [Collection Models](https://phenrickson.github.io/bgg_models/)
 
+## [Collecting BGG Data](https://phenrickson.github.io/bgg_data/)
+
+![](images/bgg_data_pipeline.png){width=40%} ![](images/bgg_data_batch.png){width=50%}
+
+Using the [targets](https://github.com/ropensci/targets) package to build a pipeline with dynamic branching for weekly API requests from BGG's API.
+
 ## [Adjusting BGG Ratings: Complexity and 'The Hotness'](https://phenrickson.github.io/bgg_reports/reports/adjusting_bgg_ratings.html)
 
 <center>
