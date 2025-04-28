@@ -6,6 +6,8 @@ I work as a consulting data scientist in Madison, Wisconsin, helping clients and
 
 This website serves as a repository for some of my side projects. I love using my background in research to over analyze the world of boardgames, sports and everything else. Click on the links above to check out a few of my projects, as well as talks I've given at various data science/analytics conferences.
 
+[My Resume](https://github.com/phenrickson/resume/raw/main/resume.pdf)
+
 ------------------------------------------------------------------------
 
 ![](images/averages_and_usersrated.png){width="45%"} ![](images/ridges.png){width="40%"}
