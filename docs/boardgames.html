@@ -149,6 +149,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#predicting-upcoming-board-games" id="toc-predicting-upcoming-board-games" class="nav-link active" data-scroll-target="#predicting-upcoming-board-games">Predicting Upcoming Board Games</a></li>
   <li><a href="#predicting-board-game-collections" id="toc-predicting-board-game-collections" class="nav-link" data-scroll-target="#predicting-board-game-collections">Predicting Board Game Collections</a></li>
+  <li><a href="#collecting-bgg-data" id="toc-collecting-bgg-data" class="nav-link" data-scroll-target="#collecting-bgg-data">Collecting BGG Data</a></li>
   <li><a href="#adjusting-bgg-ratings-complexity-and-the-hotness" id="toc-adjusting-bgg-ratings-complexity-and-the-hotness" class="nav-link" data-scroll-target="#adjusting-bgg-ratings-complexity-and-the-hotness">Adjusting BGG Ratings: Complexity and ‘The Hotness’</a></li>
   <li><a href="#reports" id="toc-reports" class="nav-link" data-scroll-target="#reports">Reports</a></li>
   </ul>
@@ -193,6 +194,11 @@ ul.task-list li input[type="checkbox"] {
 <p>“What upcoming games should I check out?”</p>
 <p>I train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to <a href="https://phenrickson.github.io/bgg_collections/phenrickson.html">train a model to identify games for myself</a>, but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection.</p>
 <p><a href="https://phenrickson.github.io/bgg_models/">Collection Models</a></p>
+</section>
+<section id="collecting-bgg-data" class="level2">
+<h2 class="anchored" data-anchor-id="collecting-bgg-data"><a href="https://phenrickson.github.io/bgg_data/">Collecting BGG Data</a></h2>
+<p><img src="images/bgg_data_pipeline.png" class="img-fluid" style="width:40.0%"> <img src="images/bgg_data_batch.png" class="img-fluid" style="width:50.0%"></p>
+<p>Using the <a href="https://github.com/ropensci/targets">targets</a> package to build a pipeline with dynamic branching for weekly API requests from BGG’s API.</p>
 </section>
 <section id="adjusting-bgg-ratings-complexity-and-the-hotness" class="level2">
 <h2 class="anchored" data-anchor-id="adjusting-bgg-ratings-complexity-and-the-hotness"><a href="https://phenrickson.github.io/bgg_reports/reports/adjusting_bgg_ratings.html">Adjusting BGG Ratings: Complexity and ‘The Hotness’</a></h2>
