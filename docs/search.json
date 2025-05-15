@@ -56,6 +56,13 @@
     "text": "I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I’ve given in the last few years."
   },
   {
+    "objectID": "talks.html#the-curse-of-knowledge-what-do-they-mean-when-they-say-ai",
+    "href": "talks.html#the-curse-of-knowledge-what-do-they-mean-when-they-say-ai",
+    "title": "Talks",
+    "section": "The Curse of Knowledge: What Do They Mean When They Say AI?",
+    "text": "The Curse of Knowledge: What Do They Mean When They Say AI?\n \nA data scientist has joined a team of cybersecurity experts. He knows next to nothing about cybersecurity. But the world of cybersecurity is suddenly fixated on artificial intelligence. Every cybersecurity vendor is talking about their new AI-powered capabilities.\nA data scientist wants to tell you, what do they really mean when they say AI?"
+  },
+  {
     "objectID": "talks.html#the-data-you-dont-have-where-is-the-value-in-data-science",
     "href": "talks.html#the-data-you-dont-have-where-is-the-value-in-data-science",
     "title": "Talks",
@@ -80,8 +87,8 @@
     "objectID": "talks.html#what-is-this-thing-called-data-science",
     "href": "talks.html#what-is-this-thing-called-data-science",
     "title": "Talks",
-    "section": "What is this thing called data science?",
-    "text": "What is this thing called data science?\n\n \n\nData science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do?"
+    "section": "What Is This Thing Called Data Science?",
+    "text": "What Is This Thing Called Data Science?\n\n \n\nData science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do?"
   },
   {
     "objectID": "talks.html#the-talk-on-talks",
