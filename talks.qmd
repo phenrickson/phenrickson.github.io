@@ -4,6 +4,14 @@ title: "Talks"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
+## [The Curse of Knowledge: What Do They Mean When They Say AI?](https://github.com/phenrickson/talks/raw/main/the-curse-of-knowledge.pdf)
+
+![](images/the-curse-of-knowledge-title.png){width=40%} ![](images/the-curse-of-knowledge-slide.png){width=40%}
+
+A data scientist has joined a team of cybersecurity experts. He knows next to nothing about cybersecurity. But the world of cybersecurity is suddenly fixated on artificial intelligence. Every cybersecurity vendor is talking about their new AI-powered capabilities. 
+
+A data scientist wants to tell you, what do they really mean when they say AI?
+
 ## [The Data You Don't Have:  <br> Where is the Value in Data Science?](https://phenrickson.github.io/data-you-dont-have/presentation.html#/title-slide)
 
 ![](images/data_you_dont_have_title.png){width=40%} ![](images/data_you_dont_have_2.png){width=45%}
@@ -44,7 +52,7 @@ Organizations increasingly speak about being data-driven, but should this be our
 
 [Minor league hockey version](https://github.com/phenrickson/talks/raw/main/now_what.pdf)
 
-## [What is this thing called data science?](https://github.com/phenrickson/talks/raw/main/what-is-this-thing-called-data-science.pdf)
+## [What Is This Thing Called Data Science?](https://github.com/phenrickson/talks/raw/main/what-is-this-thing-called-data-science.pdf)
 
 <center>
 
