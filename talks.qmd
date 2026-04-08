@@ -4,6 +4,17 @@ title: "Talks"
 
 I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I've given in the last few years.
 
+
+## [Getting Better at Software Development - By Playing a Video Game](https://github.com/phenrickson/talks/raw/main/getting-better-at-software-development.pdf)
+
+![](images/getting-better-at-software-title.png){width=40%} ![](images/getting-better-spaghetti.png){width=40%}
+
+The rise of assisted coding tools has made coding more accessible than ever. Everyone can generate code now — but can everyone design systems and software? In an era of vibe coding, the ability to think like a software developer is more important than ever. Coding was never the hard part.
+
+How do you improve your ability to design systems and architecture? By playing a video game, of course.
+
+In this talk, I discuss how Factorio — a game about building factories on an alien planet — teaches critical lessons about systems design, iterative development, and managing complexity that directly apply to software engineering. Playing a video game won't make you a developer, but it will teach you to think like one.
+
 ## [The Curse of Knowledge: What Do They Mean When They Say AI?](https://github.com/phenrickson/talks/raw/main/the-curse-of-knowledge.pdf)
 
 ![](images/the-curse-of-knowledge-title.png){width=40%} ![](images/the-curse-of-knowledge-slide.png){width=40%}

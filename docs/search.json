@@ -56,6 +56,13 @@
     "text": "I frequently deliver talks at analytics meet ups and organizations throughout the Midwest. These are a sample of some of the presentations I’ve given in the last few years."
   },
   {
+    "objectID": "talks.html#getting-better-at-software-development---by-playing-a-video-game",
+    "href": "talks.html#getting-better-at-software-development---by-playing-a-video-game",
+    "title": "Talks",
+    "section": "Getting Better at Software Development - By Playing a Video Game",
+    "text": "Getting Better at Software Development - By Playing a Video Game\n \nThe rise of assisted coding tools has made coding more accessible than ever. Everyone can generate code now — but can everyone design systems and software? In an era of vibe coding, the ability to think like a software developer is more important than ever. Coding was never the hard part.\nHow do you improve your ability to design systems and architecture? By playing a video game, of course.\nIn this talk, I discuss how Factorio — a game about building factories on an alien planet — teaches critical lessons about systems design, iterative development, and managing complexity that directly apply to software engineering. Playing a video game won’t make you a developer, but it will teach you to think like one."
+  },
+  {
     "objectID": "talks.html#the-curse-of-knowledge-what-do-they-mean-when-they-say-ai",
     "href": "talks.html#the-curse-of-knowledge-what-do-they-mean-when-they-say-ai",
     "title": "Talks",
@@ -119,6 +126,13 @@
     "text": "Predicting Board Game Collections\n \n“What upcoming games should I check out?”\nI train models at the individual user level to predict whether someone will be likely to add an upcoming game to their collection. This started as a project to train a model to identify games for myself, but then I realized that this could be extended to anyone with a boardgamegeek account and a decent number of games in their collection.\nCollection Models"
   },
   {
+    "objectID": "boardgames.html#collecting-bgg-data",
+    "href": "boardgames.html#collecting-bgg-data",
+    "title": "Board Games",
+    "section": "Collecting BGG Data",
+    "text": "Collecting BGG Data\n \nUsing the targets package to build a pipeline with dynamic branching for weekly API requests from BGG’s API."
+  },
+  {
     "objectID": "boardgames.html#adjusting-bgg-ratings-complexity-and-the-hotness",
     "href": "boardgames.html#adjusting-bgg-ratings-complexity-and-the-hotness",
     "title": "Board Games",
@@ -138,12 +152,5 @@
     "title": "About",
     "section": "",
     "text": "I work as a consulting data scientist in Madison, Wisconsin, helping clients and organizations apply techniques from data science in order to learn from data. Prior to consulting my background was in academic research, and I specialize in predictive modeling, statistical/machine learning, and causal inference.\nThis website serves as a repository for some of my side projects. I love using my background in research to over analyze the world of boardgames, sports and everything else. Click on the links above to check out a few of my projects, as well as talks I’ve given at various data science/analytics conferences.\nMy Resume"
-  },
-  {
-    "objectID": "boardgames.html#collecting-bgg-data",
-    "href": "boardgames.html#collecting-bgg-data",
-    "title": "Board Games",
-    "section": "Collecting BGG Data",
-    "text": "Collecting BGG Data\n \nUsing the targets package to build a pipeline with dynamic branching for weekly API requests from BGG’s API."
   }
 ]
