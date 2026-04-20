@@ -58,23 +58,3 @@ In this talk, I argue that one does not need to be a data scientist to question 
 </center>
 
 Organizations increasingly speak about being data-driven, but should this be our goal? In this talk I discuss philosophy of science and how we learn from data. I then illustrate the process of building predictive models with some of my own side projects: board games and minor league hockey.
-
-## [What Is This Thing Called Data Science?](https://github.com/phenrickson/talks/raw/main/what-is-this-thing-called-data-science.pdf)
-
-<center>
-
-![](images/what_is_science_intro.png){width=45%} ![](images/what_is_science_model.png){width=45%}
-
-</center>
-
-Data science is on the roadmap for many organizations and businesses. What exactly is data science? What can it do? What can it not do? 
-
-## [The Talk on Talks](https://github.com/phenrickson/talks/raw/main/talk-on-talks.pdf)
-
-<center>
-
-![](images/talk_on_talks_intro.png){width=45%} ![](images/talk_on_talks_point.png){width=45%}
-
-</center>
-
-I've given a lot of talks as a professor and as a consultant. This a compilation of advice and lessons I've picked up over the years from giving talks. Massively inspired by a presentation my advisor gave in grad school.
